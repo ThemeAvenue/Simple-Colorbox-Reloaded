@@ -5,7 +5,7 @@ Plugin Name: Simple Colorbox Reloaded
 Plugin URI: https://github.com/ThemeAvenue/Simple-Colorbox-Reloaded
 Description: Modified version of the Simple Colorbox WordPress plugin which includes some bugfixes. This plugin adds a Colorbox to your site with no configuration required.
 Author: ThemeAvenue
-Version: 1.0.0
+Version: 1.0.1
 Author URI: http://themeavenue.net/
 GitHub Plugin URI: https://github.com/ThemeAvenue/Simple-Colorbox-Reloaded
 
@@ -34,7 +34,7 @@ license.txt file included with this plugin for more information.
 define( 'SIMPLECOLORBOX_DIR', dirname( __FILE__ ) . '/' ); // Plugin folder DIR
 define( 'SIMPLECOLORBOX_URL', plugins_url( '', __FILE__ ) ); // Plugin folder URL
 define( 'SIMPLECOLORBOX_VERSION', '1.3.1' );
-define( 'SIMPLECOLORBOXRELOADED_VERSION', '1.0.0' );
+define( 'SIMPLECOLORBOXRELOADED_VERSION', '1.0.1' );
 //define( 'SIMPLECOLORBOX_THEME', '5' ); // Can be used to over-ride the default theme
 //define( 'SIMPLECOLORBOX_OPACITY', '0.2' );
 //define( 'SIMPLECOLORBOX_WIDTH', '50' );
@@ -77,7 +77,7 @@ class Simple_Colorbox {
 			'colorbox',
 			SIMPLECOLORBOX_URL . '/scripts/jquery.colorbox-min.js',
 			array( 'jquery' ),
-			1.0,
+			'1.4.33',
 			true
 		);		
 	}
