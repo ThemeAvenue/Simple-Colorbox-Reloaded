@@ -121,7 +121,7 @@ class Simple_Colorbox {
 			define( 'SIMPLECOLORBOX_THEME', '1' );
 
 		// Load the stylesheet
-		wp_enqueue_style( 'colorbox', SIMPLECOLORBOX_URL . '/themes/theme' . SIMPLECOLORBOX_THEME . '/colorbox.css', false, '', 'screen' );
+		wp_enqueue_style( 'colorbox', SIMPLECOLORBOX_URL . '/themes/example' . SIMPLECOLORBOX_THEME . '/colorbox.css', false, '', 'screen' );
 	}
 
 	/**
